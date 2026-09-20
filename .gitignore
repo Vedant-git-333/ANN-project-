@@ -1,1 +1,9 @@
+# Ignore generated clean data files
+*.npy
+*.csv
 
+# Ignore the graphs (optional, but good practice)
+*.png
+
+# Ignore Python cache
+__pycache__/
