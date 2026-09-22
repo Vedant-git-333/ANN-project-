@@ -1,0 +1,56 @@
+AEROPULSE AI - STUDENT 2 SUMMARY
+============================================================
+
+MODELS
+------------------------------------------------------------
+ANN: Fully connected neural network
+CNN: 1D convolutional neural network
+
+DATA
+------------------------------------------------------------
+Test observations: 2251
+Input features: 17
+Target: RUL (Remaining Useful Life)
+
+MODEL PERFORMANCE
+------------------------------------------------------------
+ANN:
+  MAE  = 37.6876 cycles
+  RMSE = 53.2267 cycles
+  R2   = 0.5881
+
+CNN:
+  MAE  = 39.5121 cycles
+  RMSE = 56.1824 cycles
+  R2   = 0.5410
+
+DISAGREEMENT ANALYSIS
+------------------------------------------------------------
+Mean disagreement: 8.5540 cycles
+Median disagreement: 6.4666 cycles
+Maximum disagreement: 66.9914 cycles
+75th percentile disagreement: 11.5424 cycles
+
+ERROR / DISAGREEMENT RELATIONSHIP
+------------------------------------------------------------
+Overall mean absolute error across ANN/CNN: 38.5999 cycles
+Mean error for top 25% disagreement observations: 42.9439 cycles
+Pearson correlation: 0.0822
+Spearman correlation: 0.1077
+
+OUTPUT FILES
+------------------------------------------------------------
+student2_final_handoff.csv
+student2_model_comparison_clean.csv
+student2_summary.txt
+plots/01_model_mae_comparison.png
+plots/02_model_rmse_comparison.png
+plots/03_model_r2_comparison.png
+plots/04_ann_actual_vs_predicted.png
+plots/05_cnn_actual_vs_predicted.png
+plots/06_error_distribution.png
+plots/07_absolute_error_distribution.png
+plots/08_ann_cnn_disagreement.png
+plots/09_disagreement_vs_error.png
+plots/10_ann_training_curve.png
+plots/11_cnn_training_curve.png
