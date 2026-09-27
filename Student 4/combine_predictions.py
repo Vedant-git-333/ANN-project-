@@ -51,7 +51,7 @@ TRAIN_CLEAN_FILE = "../Student 1/train_clean_2D.csv"  # cleaned data, used for s
 ANN_CNN_FILE = "../Student 2/student2_final_handoff.csv"
 
 # Student 3's real handoff file (unit, cycle, actual_RUL, LSTM_prediction, CNN_LSTM_prediction)
-LSTM_CNNLSTM_FILE = "../Student 3/student3_final_handoff.csv"
+LSTM_CNNLSTM_FILE = "../Student 3/results/student3_final_handoff.csv"
 
 # Student 3 has now uploaded real data, so we use it (no more fake numbers).
 USE_FAKE_STUDENT3_DATA = False
