@@ -1,0 +1,22 @@
+STUDENT 4 - INTELLIGENCE + DASHBOARD - SUMMARY
+==================================================
+
+Total readings combined (all 4 models present): 1961
+
+Health status breakdown:
+health_status
+Warning     850
+Healthy     801
+Critical    310
+
+Main experiment - does disagreement predict error?
+  Pearson correlation:  0.2565
+  Spearman correlation: 0.3631
+
+Top 5 most important sensors:
+sensor  importance_score
+   s11          0.775230
+    s4          0.757157
+   s12          0.748870
+    s7          0.733021
+   s15          0.720858
